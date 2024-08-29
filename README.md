@@ -10,6 +10,7 @@ alphabet_soup(“hacker”) ➞ acehkr
 
 Code:
 
+ 
  #Initialize an empty string to store the sorted characters
  def alphabet_soup(s):
     sorted_s = "" 
