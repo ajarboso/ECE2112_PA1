@@ -9,7 +9,22 @@ Example: alphabet_soup(“hello”) ➞ ehllo
 alphabet_soup(“hacker”) ➞ acehkr
 
 Code:
+def alphabet_soup(s):
+    sorted_s = ""  # Initialize an empty string to store the sorted characters
 
+    # Continue until the string is empty
+    while s: 
+        # Find the smallest character in the string
+        x = min(s) 
+         # Add all occurrences of that character to the sorted string
+        sorted_s += x * s.count(x)  
+        # Remove all occurrences of the character from the string
+        s = s.replace(x, '')
+    
+    return sorted_s  # Return the sorted string
+
+print(alphabet_soup("hello"))
+print(alphabet_soup("hacker"))
  
 
 Output:
