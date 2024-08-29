@@ -57,6 +57,6 @@ Simce I was not able to put comments in the problem 3, I will just explain it he
 
 For line 1-7: First, initialize a list of numbers, then set the starting index to 1. Next, initialize an empty list to store selected elements, and finally, append the string "end" to the end of the list.
 
-For line 8-15: A while loop that copies elements lst to lsts starting from index 1 until it encounters "end". When "end" is found, the loop removes the last added element, adjusts the index, and then breaks the loop.
+For line 8-15: A while loop that copies elements lst to lsts starting from index 1 until it encounters end. When end is found, the loop removes the last added element, adjusts the index, and then breaks the loop.
 
-For line 17-19: Display the 1st, middle and last.
+For line 17-19: Display the first, middle and last of the elements.
