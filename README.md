@@ -21,11 +21,10 @@ def alphabet_soup(s):
         sorted_s += x * s.count(x)  
         # Remove all occurrences of the character from the string
         s = s.replace(x, '')
-    
     return sorted_s  # Return the sorted string
-
-print(alphabet_soup("hello"))
-print(alphabet_soup("hacker"))
+   
+    print(alphabet_soup("hello"))
+    print(alphabet_soup("hacker"))
 
 Output:
 ehllo
@@ -61,11 +60,11 @@ ef replace_emoticons(sentence):
         
     # Return the modified sentence
     return sentence
-
-
+    
 user_input = input("Enter a sentence: ")
 result = replace_emoticons(user_input)
 print(result) 
+
 
 Sample output:
 Enter a Sentence: Make me sad
