@@ -10,10 +10,9 @@ alphabet_soup(“hacker”) ➞ acehkr
 
 Code:
 
-#Initialize an empty string to store the sorted characters
-def alphabet_soup(s):
+ #Initialize an empty string to store the sorted characters
+ def alphabet_soup(s):
     sorted_s = "" 
-
     # Continue until the string is empty
     while s: 
         # Find the smallest character in the string
