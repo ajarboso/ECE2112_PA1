@@ -11,21 +11,21 @@ alphabet_soup(“hacker”) ➞ acehkr
 Code:
 
  
- ####Initialize an empty string to store the sorted characters
- ####def alphabet_soup(s):
-    ####sorted_s = "" 
-    ######Continue until the string is empty
-    #####while s: 
-        ##### Find the smallest character in the string
-        ####x = min(s) 
+ #### Initialize an empty string to store the sorted characters
+ #### def alphabet_soup(s):
+    #### sorted_s = "" 
+    #### Continue until the string is empty
+    ### while s: 
+        ### Find the smallest character in the string
+        #### x = min(s) 
         #### Add all occurrences of that character to the sorted string
-        ###sorted_s += x * s.count(x)  
+        ### sorted_s += x * s.count(x)  
        #### Remove all occurrences of the character from the string
-        ####s = s.replace(x, '')
-    ####return sorted_s  # Return the sorted string
+        #### s = s.replace(x, '')
+    #### return sorted_s  # Return the sorted string
    
-    ####print(alphabet_soup("hello"))
-    ####print(alphabet_soup("hacker"))
+    #### print(alphabet_soup("hello"))
+    #### print(alphabet_soup("hacker"))
 
 Output:
 ehllo
