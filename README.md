@@ -58,17 +58,18 @@ ef replace_emoticons(sentence):
     elif "mad" in sentence:
         sentence = sentence.replace("mad", d["mad"])
         
-    # Return the modified sentence
-    return sentence
-    
+    # Return the modified sentence 
+    return sentence    
 user_input = input("Enter a sentence: ")
 result = replace_emoticons(user_input)
 print(result) 
 
 
 Sample output:
+
 Enter a Sentence: Make me sad
 output:
+
 Make me sad :((
 
 UNPACKING LIST PROBLEM: 
